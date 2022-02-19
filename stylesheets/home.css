@@ -1,0 +1,105 @@
+/* hero section */
+
+.ezh-section-hero {
+    position: relative;
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(85, 48, 85, 0.8), #000000), url(../assets/hero_img.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* hero section */
+
+
+/* advice section */
+
+.ezh-section-advice {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ezh-page-block {
+    position: relative;
+    margin: 0px !important;
+    padding: 0px;
+}
+
+.ezh-section-advice p {
+    color: #777;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.ezh-section-advice__cards {
+    margin-top: 5%;
+}
+
+.ezh-section-advice__card {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.ezh-section-advice__card h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.1;
+}
+
+.ezh-section-advice__card:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* carousel section */
+
+.ezh-section-carousel {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ezh-section-carousel--black {
+    background-color: #000000;
+}
+
+.ezh-img-object-fit {
+    object-fit: contain;
+    max-height: 60vh;
+}
+/* carousel section */
+
+@media (max-width: 700px) {
+    .heading-primary--main {
+        font-size: 2rem;
+        letter-spacing: 2.5rem;
+        margin-bottom: 16px;
+    }
+    .heading-primary--sub {
+        font-size: 1.4rem;
+        letter-spacing: 1.2rem;
+    }
+}
+
+
+/* advice section */
