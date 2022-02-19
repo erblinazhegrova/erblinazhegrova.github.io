@@ -228,6 +228,10 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.ezh-section__header-three--white {
+    color: #FFFFFF;
+}
+
 .ezh-section__desc {
     color: #777;
     font-size: 1.4rem;
