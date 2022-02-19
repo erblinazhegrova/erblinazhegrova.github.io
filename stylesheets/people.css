@@ -23,6 +23,7 @@
 }
 
 .ezh-section-people {
+    position: relative;
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
