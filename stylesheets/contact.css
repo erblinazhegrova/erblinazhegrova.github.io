@@ -1,0 +1,38 @@
+.ezh-section-contact {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    min-height: 70vh;
+}
+
+.ezh-contact {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ezh-contact__box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.ezh-contact__box h3 {
+    text-align: left;
+}
+
+.ezh-contact__form input,
+.ezh-contact__form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+
+.ezh-contact__form button {
+    margin: 10px 0;
+}

@@ -171,14 +171,22 @@ body {
     transform: translate(0);
 }
 
-.heading-primary {
-    color: #fff;
+.ezh-section__header-primary {
+    color: #000000;
     text-transform: uppercase;
     margin-bottom: 6rem;
     backface-visibility: hidden;
 }
 
-.heading-primary--main {
+.ezh-section__header-primary--center {
+    text-align: center;
+}
+
+.ezh-section__header-primary--white {
+    color: #FFFFFF;
+}
+
+.ezh-section__header-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -188,7 +196,7 @@ body {
     animation-timing-function: ease-out;
 }
 
-.heading-primary--sub {
+.ezh-section__header-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 400;
@@ -237,7 +245,8 @@ body {
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 22px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .swiper {

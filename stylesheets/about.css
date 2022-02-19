@@ -1,0 +1,13 @@
+.ezh-section-about {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    min-height: 70vh;
+}
+
+.ezh-about {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
