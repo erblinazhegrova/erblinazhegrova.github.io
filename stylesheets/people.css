@@ -1,0 +1,82 @@
+.ezh-bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.ezh-bg-video__content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .3;
+}
+
+.ezh-people-wrapper {
+    max-width: 120rem;
+    margin-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ezh-section-people {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.ezh-people {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.15);
+    padding: 6rem;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    padding-left: 9rem;
+}
+
+.ezh-people__shape {
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.ezh-people__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: white;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0;
+    backface-visibility: hidden;
+    transition: all .5s;
+}
+
+.ezh-people__img {
+    height: 100%;
+    transform: translateX(-3rem) scale(1.4);
+    backface-visibility: hidden;
+    transition: all .5s;
+}
+
+.ezh-people__text {}
+
+.ezh-people:hover .ezh-people__caption {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.ezh-people:hover .ezh-people__img {
+    transform: scale(1) translateX(-3rem);
+    filter: blur(3px) brightness(90%);
+}
