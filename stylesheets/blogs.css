@@ -17,7 +17,9 @@
     padding: 2rem 1.5rem;
     color: black;
     border: 1px solid #aaa8a8;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius: 2rem;
     margin-bottom: 4rem;
 }
@@ -25,6 +27,8 @@
 .ezh-blogs__card:hover {
     border: 1px solid #ececec;
 }
+
+.ezh-blog__body {}
 
 .ezh-blogs__datetime {
     color: #ececec;
